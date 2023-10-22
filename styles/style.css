@@ -88,7 +88,6 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-   /* height: 757px; */
     z-index: -1;
     padding: 165px 50px 50px 50px;
 }
@@ -161,7 +160,7 @@
     line-height: 28px;
     word-spacing: 23px;
     text-transform: uppercase;
-    /*text-wrap: nowrap;*/
+    text-wrap: nowrap;
 }
 
 .cover__description-text-spacing {
