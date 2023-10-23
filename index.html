@@ -5,9 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Оно тебе надо — аукцион вещей, в которые никто не верил</title>
-    <link rel="stylesheet" href="../ono-tebe-nado/fonts/fonts.css" />
-    <link rel="stylesheet" href="../ono-tebe-nado/styles/global.css" />
-    <link rel="stylesheet" href="../ono-tebe-nado/styles/style.css" />
+    <link rel="stylesheet" href="./fonts/fonts.css" />
+    <link rel="stylesheet" href="./styles/global.css" />
+    <link rel="stylesheet" href="./styles/style.css" />
   </head>
   <body>
     <header class="header">
@@ -27,7 +27,7 @@
       <a class="header__logo">
         <img
           class="header__logo-image"
-          src="../ono-tebe-nado/images/logo-black.svg"
+          src="./images/logo-black.svg"
           alt="логотип темный"
         />
       </a>
@@ -55,13 +55,13 @@
           >
         </section>
         <section class="cover__description">
-          <h2 class="cover__description-text">
+          <p class="cover__description-text">
             <span class="cover__description-text-spacing"
               >Аукцион вещей, в которые никто не</span
             >
             верил
-          </h2>
-          <button class="bet-button">Сделать ставку</button>
+          </p>
+          <button type="button" class="bet-button">Сделать ставку</button>
         </section>
       </section>
       <section class="lots">
@@ -121,27 +121,33 @@
       </section>
       <section class="about">
         <div class="about__column-logo">
-          <div class="about__column-logo-black">
-            <div class="about__column-logo-white"></div>
+          <div class="about__column-logo-background">
+            <img class="about__column-logo-image" src="./images/logo-white.svg" alt="Логотип"></img>
           </div>
         </div>
         <div class="about__column-text">
           <h2 class="about__title">Об аукционе</h2>
-          <p class="about__text">
+          <ul class="about__text-list">
+            <li class="about__text-list-item">
+                <p class="about__text">
             Здесь вы не встретите очередное пафосное собрание невероятно
             дорогого антиквариата. Наши лоты вообще не должны были попасть ни на
             один аукцион. Потому что кому нужен дневник девочки-подростка или
             картина, которую может нарисовать даже ребёнок? Кому нужны все эти
             странные вещи, созданные любителями?
-          </p>
-          <p class="about__text">
+                </p>
+              </li>
+              <li class="about__text-list-item">
+                <p class="about__text">
             Слишком сложные или, наоборот, слишком простые. Опережающие своё
             время. В пух и прах растерзанные критиками. Непринятые и непонятые.
             Когда-то они казались просто неудачными. Но, несмотря на критику,
             кажущуюся простоту или сложность, сейчас без этих лотов невозможно
             представить современную культуру. Когда в эти вещи не верил никто,
             продолжали верить их создатели. И сейчас эти лоты стали культовыми.
-          </p>
+                </p>
+              </li>
+        </ul>
         </div>
       </section>
     </main>
@@ -171,7 +177,7 @@
           <a href="#0" class="footer__social-link">
             <img
               class="footer__social-icon"
-              src="../ono-tebe-nado/images/yt.svg"
+              src="./images/yt.svg"
               alt="иконка ютюб"
             />
           </a>
@@ -180,7 +186,7 @@
           <a href="#0" class="footer__social-link">
             <img
               class="footer__social-icon"
-              src="../ono-tebe-nado/images/vk.svg"
+              src="./images/vk.svg"
               alt="иконка vk"
             />
           </a>
@@ -189,7 +195,7 @@
           <a href="#0" class="footer__social-link">
             <img
               class="footer__social-icon"
-              src="../ono-tebe-nado/images/pinterest.svg"
+              src="./images/pinterest.svg"
               alt="иконка pinterest"
             />
           </a>
