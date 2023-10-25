@@ -298,11 +298,12 @@
     border-radius: 50%;
     justify-content: center;
     align-items: center;
-    padding: 63px 46px;
 }
 
 .about__column-logo-image {
     flex-shrink: 0;
+    width: 148px; 
+    height: 114px;
 }
 
 .about__column-text {
